@@ -29,42 +29,38 @@ BoxWrapper-Automation/
 ├── PLC Code/ # Ladder logic screenshots and control logic implementation
 ---
 
-## 🛠 Tools & Technologies
+## ⚙️ Key Features
 
-- **CODESYS v3.5** for PLC programming and HMI design
-- **24VDC control system**
-- **380V 3-phase VFDs** for motor control
-- **Proximity & limit switches**
-- **HMI visualization** built with WebVisu
-- **Power analysis** for main circuit breaker and control components
-
----
-
-## 💡 Control Logic Overview
-
-- Sequential control using PLC ladder logic
-- Rotation motor runs while film wraps the box
-- Up/Down motor moves the stretch unit vertically
-- Sensors track limits and count rotations
-- HMI allows control of speeds and system state
-- System stops automatically after 3 wrapping cycles
+- Dual VFD-controlled 3-phase motors (0.37kW and 0.55kW)
+- Limit switches and proximity sensors for motion and rotation control
+- Complete PLC logic using ladder diagrams
+- HMI panel created with CODESYS WebVisu
+- Proper DC power calculation, circuit protection, and wiring design
 
 ---
 
-## 📷 Screenshots
+## 🛠 Tools & Components
 
-> HMI Panel Design  
-![HMI Panel](Images/HMI_Design/BoxWrapper_Panel.png)
-
-> Control Algorithm Flowchart  
-![Control Flowchart](Images/Overview/PLC_Algorithm_Overview.jpg)
-
-> Ladder Logic Example  
-![Ladder Logic](Images/PLC_Code/Ladder_Screenshot.png)
+- **CODESYS v3.5** for PLC and HMI programming  
+- **Siemens-compatible PLC**  
+- **24VDC digital sensors** (limit switches, proximity switches)  
+- **VFDs** for motor speed control  
+- **Manual MCB and power supply sizing**
 
 ---
 
-## 👨‍💻 Developed By
+## 🖼 Screenshots
+
+You can find visuals and design documents in:
+
+- `HMI Design/` → User interface layout  
+- `PLC Code/` → Ladder logic program steps  
+- `Images/` → Block diagrams, system overviews, flowcharts  
+- `Docs/` → PDF documents for power analysis and component selection
+
+---
+
+## 👤 Developed by
 
 **Pedram Nafisi**  
 Industrial Automation & Control Engineer  
@@ -75,5 +71,4 @@ Industrial Automation & Control Engineer
 
 ## 📌 Notes
 
-- This project was built entirely from scratch for demonstration, learning, and portfolio purposes.
-- Suggestions, collaborations, or feedback are always welcome.
+This project was developed entirely from scratch as a showcase of real-world automation engineering capability. All materials are shared for educational and professional portfolio use.
