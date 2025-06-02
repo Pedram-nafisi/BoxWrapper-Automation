@@ -23,11 +23,10 @@ A complete PLC-based automation system for a box wrapping machine — designed, 
 ## 🗂 Project Structure
 
 BoxWrapper-Automation/
-├── PLC_Code/ # Ladder logic code or screenshots
-├── HMI_Design/ # HMI panel design (CODESYS WebVisu)
-├── Docs/ # Electrical documentation (PDFs for MCB, sensors, etc.)
-├── Images/ # Visuals: control diagram, wiring layout, flowcharts
-├── README.md # Project description (this file)
+├── Docs/ # All electrical documents (MCB selection, power calculations, sensors, etc.)
+├── HMI Design/ # Screenshots or layout of the HMI interface
+├── Images/ # Control algorithm, system overview, wiring diagrams
+├── PLC Code/ # Ladder logic screenshots and control logic implementation
 ---
 
 ## 🛠 Tools & Technologies
