@@ -27,6 +27,10 @@ BoxWrapper-Automation/
 ├── HMI Design/ # Screenshots or layout of the HMI interface
 ├── Images/ # Control algorithm, system overview, wiring diagrams
 ├── PLC Code/ # Ladder logic screenshots and control logic implementation
+
+Copy
+Edit
+
 ---
 
 ## ⚙️ Key Features
